@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android/!svn/ver/11340/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout
+END
+recent_login_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout/recent_login_list.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android/!svn/ver/11284/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout/activity_main.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android/!svn/ver/11340/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout/activity_login.xml
+END
+activity_authorize.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android/!svn/ver/11284/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout/activity_authorize.xml
+END
+myround_progressbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout/myround_progressbar.xml
+END
+userinfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout/userinfo.xml
+END
+recent_login_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout/recent_login_item.xml
+END
+activity_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/res/layout/activity_register.xml
+END

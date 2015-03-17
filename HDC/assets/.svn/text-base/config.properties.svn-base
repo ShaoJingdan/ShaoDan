@@ -1,0 +1,7 @@
+<!-- token本地保存时间，超过此时间将自动重新获取Token，单位：分钟-->
+token_expire=60
+#正式环境
+#terminal_server_url=http://112.4.28.102:80/hdc-terminal-server/
+
+#测试
+terminal_server_url=http://112.4.17.182:8080/hdc-service/

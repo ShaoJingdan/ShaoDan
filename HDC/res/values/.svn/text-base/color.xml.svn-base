@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="trsparent">#00000000</color>
+    <color name="translucentc">#e0000000</color>
+    <color name="grey">#B8B8B8</color>
+    <color name="grey_dark">#4F4F4F</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000000</color>
+    <color name="blue_dark">#2F4C5B</color>
+
+</resources>

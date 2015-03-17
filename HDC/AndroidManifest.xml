@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chinamobile.hdcjs"
+    android:versionCode="50000"
+    android:versionName="cn1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 开机广播权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 网络状态变更权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 内存卡的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />   
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:name="com.chinamobile.hdcjs.ui.HDCApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:persistent="true" >
+        <activity
+            android:name="com.chinamobile.hdcjs.ui.AuthorizeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.chinamobile.hdcjs.ui.RecentLoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service android:name="com.chinamobile.hdcjs.service.LoginService"  >
+            <intent-filter android:priority="1000">
+                <action android:name="com.chinamobile.hdcjs.service.LoginService" />
+            </intent-filter>
+        </service>
+
+        <!-- 开机广播 -->
+        <receiver android:name="com.chinamobile.hdcjs.receiver.BootReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 网络状态广播 -->
+        <receiver android:name="com.chinamobile.hdcjs.receiver.NetworkStatusReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.chinamobile.hdcjs.aidl.UserInfoService">
+            <intent-filter>
+                <action android:name="com.chinamobile.hdcjs.aidl.UserInfoService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.chinamobile.hdcjs.provider.DevInfoProvider"
+            android:authorities="com.chinamobile.hdcjs.devinfoprovider"
+            android:exported="true" />
+        <provider
+            android:name="com.chinamobile.hdcjs.provider.UserInfoProvider"
+            android:authorities="com.chinamobile.hdcjs"
+            android:exported="true" />
+        
+        <!-- 添加统一认证服务SsoService -->
+        <service
+    		android:name="com.cmcc.sso.service.SsoService"
+   			android:process="com.cmcc.sso.SsoService"
+    		android:exported="true" >
+    		<intent-filter>
+        		<action android:name="com.cmcc.sso.Action.SsoService" />
+        		<category android:name="android.intent.category.DEFAULT" />
+    		</intent-filter>
+
+    		<meta-data android:name="service_version"
+                  android:value="1.8.0-jar.arm" />
+		</service>
+		
+        <!-- 添加统一认证日志服务LogService -->
+        <service android:name="com.cmcc.sso.service.LogService" />
+        
+        <!-- 添加统一认证启动广播BootReceiver,为了确保系统的高效性，将其注册为系统独立进程 -->
+        
+        <receiver android:name="com.cmcc.sso.receiver.BootReceiver"
+            android:process=":remote" >
+  			<intent-filter android:priority="2147483647">
+     			<action android:name="android.intent.action.BOOT_COMPLETED" />
+     			<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+  			</intent-filter>
+  			<intent-filter>
+     			<action android:name="android.intent.action.PACKAGE_ADDED" />
+     			<action android:name="android.intent.action.PACKAGE_REMOVED" />
+     			<data android:scheme="package" />  
+  			</intent-filter>
+  			<intent-filter>
+     			<action android:name="android.intent.action.MEDIA_MOUNTED" />
+     			<data android:scheme="file" />  
+  			</intent-filter>
+		</receiver>
+        
+    </application>
+
+</manifest>

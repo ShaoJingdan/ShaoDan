@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- 字体相关相关尺寸 -->
+    <dimen name="hugeTextSize">40sp</dimen>
+    <dimen name="largeTextSize">30sp</dimen>
+    <dimen name="bigTextSize">28sp</dimen>
+    <dimen name="normalTextSize">22sp</dimen>
+    <dimen name="smallTextSize">14sp</dimen>
+    <dimen name="littleTextSize">12sp</dimen>
+    <dimen name="tinyTextSize">10sp</dimen>
+    
+    <dimen name="edittext_normal_paddingStart">30px</dimen>
+    <!-- 登录界面相关 -->
+    <dimen name="login_edittext_height">90dp</dimen>
+    <dimen name="login_navigation_btn_height">150dp</dimen>
+    <dimen name="login_normal_margin_top">3dp</dimen>
+    <dimen name="login_checkbox_text_padding">5dp</dimen>
+
+</resources>

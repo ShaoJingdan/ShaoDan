@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="usertypes">
+		<item>通行证</item>
+		<item>服务密码</item>
+		<item>动态密码</item>
+		<item>业务密码</item>
+	</string-array>
+</resources>

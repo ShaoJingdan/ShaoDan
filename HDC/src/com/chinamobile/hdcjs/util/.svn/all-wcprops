@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android/!svn/ver/11297/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/android/!svn/ver/11297/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/Constants.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/FileUtil.java
+END
+ImageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/ImageUtil.java
+END
+PasswordUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/PasswordUtil.java
+END
+PreferencesUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/PreferencesUtil.java
+END
+FileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/FileService.java
+END
+UIEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/UIEvent.java
+END
+SDPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/SDPath.java
+END
+ShortCut.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/android/!svn/ver/11252/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/ShortCut.java
+END
+PropertiesUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/android/!svn/ver/11214/project/%E5%AE%B6%E5%BA%AD%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0/HDC/branches/HDC_new_sso/src/com/chinamobile/hdcjs/util/PropertiesUtil.java
+END

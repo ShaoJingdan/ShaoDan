@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 有焦点时效果 -->
+    <item android:drawable="@drawable/getpwd_focus"  android:state_focused="true"/>
+    <!-- 无焦点时效果 -->
+    <item android:drawable="@drawable/getpwd_normal"  android:state_focused="false"/>
+
+
+</selector>

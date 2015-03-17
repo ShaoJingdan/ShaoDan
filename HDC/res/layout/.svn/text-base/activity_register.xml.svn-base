@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="550dp"
+        android:layout_height="346dp"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp" >
+
+            <EditText
+                android:id="@+id/reg_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_edittext"
+                android:ems="10"
+                android:hint="  手机号"
+                android:inputType="phone"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey"
+                android:textSize="35sp" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/captcha"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/bg_btn2"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="获取验证码"
+                android:textColor="@color/grey"
+                android:textSize="28sp"
+                 />
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/captcha_et"
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint=" 短信验证码"
+            android:inputType="numberPassword"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:textSize="35sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint=" 密码"
+            android:inputType="numberPassword"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:textSize="35sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="注 册"
+            android:textColor="@drawable/button_font_style"
+            android:textSize="35sp"
+            android:background="@drawable/bg_btn1_normal" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
