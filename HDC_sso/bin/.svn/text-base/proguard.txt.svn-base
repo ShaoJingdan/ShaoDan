@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:18
+-keep class com.jsmcc.newsso.MainActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:9
+-keepclassmembers class * { *** getToken(...); }
+
