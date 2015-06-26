@@ -1,0 +1,55 @@
+10
+
+dir
+11591
+http://svn.ebupt.net/svn/android/StudyProject/chenzhixi/SugonApp/res
+http://svn.ebupt.net/svn/android
+
+
+
+2015-06-19T02:50:24.009926Z
+11591
+chenzhixi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+124a1d7b-0be7-4954-91ae-2fb941fa58b7
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+drawable-xxhdpi
+dir
+
+layout
+dir
+
+values
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+

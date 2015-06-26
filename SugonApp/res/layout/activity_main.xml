@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#efefef"
+    tools:context="${relativePackage}.${activityClass}" >
+   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp" >
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="主页"
+            android:textSize="18sp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_marginTop="3sp"
+             android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:visibility="visible"
+            android:text="注销"
+             />
+    </RelativeLayout>
+    <ScrollView 
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+         android:layout_height="500dp"
+        android:layout_weight="1"
+        android:fadingEdge="vertical"
+        android:fillViewport="true"
+        >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_markettop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF" >
+
+        <ImageSwitcher
+            android:id="@+id/is_markettop"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+        </ImageSwitcher>
+        
+        <RelativeLayout      
+	        android:layout_width="match_parent"      
+	        android:layout_height="wrap_content"   
+	        android:orientation="vertical" >      
+	        <LinearLayout      
+	            android:id="@+id/ll_viewGroup"      
+	            android:layout_width="fill_parent"      
+	            android:layout_height="wrap_content"      
+	            android:layout_alignParentRight="true"    
+	            android:layout_marginTop="100sp"    
+	            android:gravity="right"
+	            android:layout_marginRight="15dp"
+	            android:orientation="horizontal" >
+	            
+	        </LinearLayout>      
+	    </RelativeLayout>  
+    </RelativeLayout>
+    <TextView 
+        android:paddingLeft="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="曙光服务器"
+        android:textSize="18sp"/>
+    <LinearLayout 
+    android:id="@+id/Ll_ProductType"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:paddingLeft="8dp"
+    android:orientation="horizontal" >
+    
+   
+        <TextView
+           
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="产品类型："
+            android:layout_gravity="center"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#808080"
+            android:layout_marginRight="5dp"
+            android:text="请选择产品类型" />
+        
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:src="@drawable/item_mine_arrow" />
+
+
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="3dp"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp" >
+    
+   
+        <TextView
+            android:id="@+id/tv_prm"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="产品参数："
+            android:layout_gravity="center"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#808080"
+            android:layout_marginRight="5dp"
+            android:text="请选择产品参数" />
+        
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:src="@drawable/item_mine_arrow" />
+
+
+</LinearLayout>
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="3dp"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp" >
+    
+   
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="查看详情"
+            android:textSize="18sp" 
+            android:gravity="center_horizontal"/>
+        
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:src="@drawable/item_mine_arrow" />
+
+
+</LinearLayout>
+ <TextView 
+        android:paddingLeft="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="查看其他品牌服务器"
+        android:textSize="18sp"/>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:paddingBottom="3dp"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:paddingLeft="8dp" >
+        
+        <com.sugon.app.util.XListView
+            android:id="@+id/lv_brand"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	
+            ></com.sugon.app.util.XListView>
+  </LinearLayout>
+  </LinearLayout>
+ </ScrollView>
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+     <Button 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="前去比较"/>
+ </LinearLayout>
+
+</LinearLayout>
+
